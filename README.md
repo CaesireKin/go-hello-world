@@ -1,7 +1,7 @@
 # go-hello-world
 ---
 >> Write in the head:
->> Because i'm just a beginner start learning go, this document may more useful for those beginner like me, it's is pleasure to get any advice if you get any wrong or have an better idea
+>> Because i'm just a beginner start learning go, this document may more useful for those beginner like me, it's is pleasure to get any advice if you find any wrong or have an better idea
 --
 1. Install the go runtime;[Download](https://golang.org/dl)
 2. Set your GOROOT, GOPATH and GOBIN environment variables, for example
