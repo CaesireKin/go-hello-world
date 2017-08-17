@@ -8,7 +8,7 @@
 	+ GOROOT: $GO_INSTALL_DIR/
 		+ This is the directory you installed the go runtime
 	+ GOPATH: $WORKSPACES/
-		+ It's get a little complex to explain it usage(English is not my mother tongue), you can image it just like a nodejs project working directory(Ofcourse a little different i thought), all the source code are lying under src directory(maybe those big project got a different structure?).still, i make a directory under the **src** for my project root.[See Detail](https://golang.org/doc/code.html#Workspaces)
+		+ It's get a little complex to explain it usage(English is not my mother tongue), you can image it just like a nodejs project working directory(Ofcourse a little different i thought), all the source code are lying under src directory(maybe those big project got a different structure?).still, i make a directory under the **src** for my project root.[See The Detail About *$GOPATH*](https://golang.org/doc/code.html#Workspaces)
 	+ GOBIN: $WORKSPACE/bin
 		+ Yeah, I set this environment varibale like that.As the offical document says, when you build a go program, the executable can be found in here
 3. Command:**go install $GOPATH/src/${your_project}** or **cd $GOPATH/src/${your_project}** then execute **go install**
